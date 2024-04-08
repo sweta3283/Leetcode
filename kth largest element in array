@@ -1,0 +1,16 @@
+class Solution {
+    public int findKthLargest(int[] nums, int k) {
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        for(int i=0; i<nums.length; i++){
+            pq.offer(nums[i]);
+            if(pq.size() > k){
+                pq.poll();
+            }
+        }
+        return pq.peek();
+    }
+}
+
+--The time complexity of this solution is O(n log k), where n is the number of elements in the input array nums and k is the value of k. This is because we are iterating through each element in the input array and performing operations on the priority queue, which has a time complexity of O(log k) for insertion and deletion.
+
+The space complexity of this solution is O(k), as the priority queue will store at most k elements at any given time. This is because we are only keeping track of the k largest elements in the priority queue.
