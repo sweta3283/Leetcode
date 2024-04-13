@@ -1,0 +1,32 @@
+Two Pointer approach - O(NlogN) - log(N) because sorting
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        int[] result = new int[2];
+        int[] temp = Arrays.copyOf(nums, nums.length);
+        Arrays.sort(nums);
+        int left = 0;
+        int right = nums.length - 1;
+        while (left < right) {
+            int sum = nums[left] + nums[right];
+            System.out.println(nums[left] + " : " + nums[right] + " : " + sum);
+            if (sum < target) {
+                left++;
+            } else if (sum > target) {
+                right--;
+            } else
+                break;
+        }
+        int leftIdx = nums[left];
+        int rightIdx = nums[right];
+        boolean isChecked = false;
+        for (int i = 0; i < temp.length ; i++) {
+            if (temp[i] == leftIdx && !isChecked) {
+                result[0] = i;
+                isChecked = true;
+            } else if (temp[i] == rightIdx) {
+                result[1] = i;
+            }
+        }
+        return result;
+    }
+}
