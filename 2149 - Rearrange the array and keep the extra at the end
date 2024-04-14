@@ -1,0 +1,41 @@
+public class Solution {
+    public static int[] alternateNumbers(int []nums) {
+       int n = nums.length;
+        int[] pos = new int[n];
+        int[] neg = new int[n];
+        int posIdx = 0; int negIdx = 0;
+        for (int i = 0; i < n; i++) {
+            if (nums[i] > 0) {
+                pos[posIdx] = nums[i];
+                posIdx++;
+            } else {
+                neg[negIdx] = nums[i];
+                negIdx++;
+            }
+        }
+        if(pos.length >  neg.length){
+        for (int i =0 ; i < neg.length; i++) {
+            System.out.println(pos[i]);
+            nums[2 * i] = pos[i];
+            nums[2 * i + 1] = neg[i];
+        }
+        int index = neg.length*2;
+        for(int j = neg.length; j< pos.length;j++){
+            nums[index] = pos[j];
+            index++;
+        }
+        } else{
+        for (int i=0; i < pos.length; i++) {
+            System.out.println(neg[i]);
+            nums[2 * i] = pos[i];
+            nums[2 * i + 1] = neg[i];
+        }
+        int index = pos.length*2;
+        for(int j = pos.length; j< neg.length;j++){
+            nums[index] = pos[j];
+            index++;
+        }
+        }
+        return nums;
+    }
+}
