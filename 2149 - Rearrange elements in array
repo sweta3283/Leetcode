@@ -27,3 +27,23 @@ class Solution {
         return nums;
     }
 }
+---Optimised with Time O(N) and Space O(N)-- one space will be needed to store
+
+class Solution {
+    public int[] rearrangeArray(int[] nums) {
+        int n = nums.length;
+        int[] res = new int[n];
+        int posIdx = 0;
+        int negIdx = 0;
+        for (int i = 0; i < n; i++) {
+            if (nums[i] > 0) {
+                res[2 * posIdx] = nums[i];
+                posIdx++;
+            } else {
+                res[2 * negIdx + 1] = nums[i];
+                negIdx++;
+            }
+        }
+        return res;
+    }
+}
