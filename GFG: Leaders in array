@@ -18,3 +18,20 @@ class Solution{
        return response;
     }
 }
+
+---------------
+Under the covers, Collections.sort works by copying the collection to an array, sorting the array, then copying the array back to the collection.
+
+Arrays.sort just sorts the array in place.
+
+Now for a large enough array / collection, the cost of sorting (O(NlogN)) will dominate the cost of copying (O(N)). For a small array / collection, the copying becomes significant.
+
+(This behavior may depend on the collection type. For an ArrayList, the Collections.sort implementation may be able to sort the backing array without copying data. I would need to check the source code. UPDATE - in-place sorting confirmed for ArrayList for Java 8 and later.)
+
+You are comparing sorting an int[] with sorting a List<Integer>.
+
+This is apples and oranges. Because:
+
+Comparing two int values using relational operators is faster than comparing two Integer values using compareTo(Integer).
+Arrays.sort(int[]) uses a different (faster) algorithm to the one used by Arrays.sort(Object[])
+If you want a fairer comparison, compare Collections.sort on an ArrayList<Integer> with Arrays.sort(Object[]) on a Integer[].
