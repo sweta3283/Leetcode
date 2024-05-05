@@ -1,0 +1,44 @@
+//The time complexity of this solution is O(n^2) because we iterate over all possible segment lengths from n to 1, and for each segment length, we check if it is an anagram by iterating over the characters in the string. The space complexity is O(n) because we use a HashMap to store the frequency of characters in each segment.
+
+Overall, the time complexity is dominated by the nested loops and the space complexity is linear with respect to the input size.
+
+public class Solution {
+    public int minAnagramLength(String s) {
+        int n = s.length();
+        for (int i = n; i > 1; i--) {
+            if (n % i == 0) {
+                int k = n / i;
+                boolean isAnagram = check(s, k);
+                if (isAnagram) {
+                    return k;
+                }
+            }
+        }
+        return n; // If no anagramic segments, return the full length
+    }
+
+    public boolean check(String s, int k) {
+        Map<Character, Integer> firstSegmentFreq = new HashMap<>();
+
+        // Count the frequency of characters in the first segment
+        for (int i = 0; i < k; i++) {
+            firstSegmentFreq.put(s.charAt(i), firstSegmentFreq.getOrDefault(s.charAt(i), 0) + 1);
+        }
+        System.out.println(firstSegmentFreq);
+        boolean isAnagramic = true;
+
+        // Check if the other segments match the first segment's frequency
+        for (int i = k; i < s.length(); i += k) {
+            Map<Character, Integer> segmentFreq = new HashMap<>();
+            for (int j = i; j < i + k; j++) {
+                segmentFreq.put(s.charAt(j), segmentFreq.getOrDefault(s.charAt(j), 0) + 1);
+            }
+            if (!firstSegmentFreq.equals(segmentFreq)) {
+                isAnagramic = false;
+                break;
+            }
+        }
+
+        return isAnagramic;
+    }
+}
