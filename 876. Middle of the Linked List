@@ -1,0 +1,21 @@
+class Solution {
+    public ListNode middleNode(ListNode head) {
+        ListNode left = head;
+        ListNode right = head;
+        ListNode node = null;
+        while(left != null ){
+            if(right == null || right.next == null){
+                node = left;
+                break;
+            }
+            left = left.next;
+            right = right.next.next;
+        }
+         return node;
+    }
+   
+}
+
+The time complexity of this solution is O(n) where n is the number of nodes in the linked list. This is because we iterate through the linked list once to find the middle node.
+
+The space complexity is O(1) because we are using a constant amount of extra space regardless of the size of the input.
