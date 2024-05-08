@@ -1,0 +1,28 @@
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ * int val;
+ * ListNode next;
+ * ListNode() {}
+ * ListNode(int val) { this.val = val; }
+ * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+class Solution {
+    public ListNode reverseList(ListNode head) {
+        ListNode node = null;
+        ListNode curr = head;
+        ListNode temp = null;
+        while (curr != null) {
+            temp = curr.next;
+            curr.next = node;
+            node = curr;
+            curr = temp;
+        }
+        return node;
+    }
+}
+
+The time complexity of this solution is O(n) where n is the number of nodes in the linked list. This is because we iterate through each node in the linked list once to reverse the list.
+
+The space complexity is O(1) because we are using a constant amount of extra space regardless of the size of the input linked list. We are only using a few extra pointers to keep track of the nodes during the reversal process
