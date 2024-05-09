@@ -1,0 +1,32 @@
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ * int val;
+ * ListNode next;
+ * ListNode() {}
+ * ListNode(int val) { this.val = val; }
+ * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+class Solution {
+    public boolean isPalindrome(ListNode head) {
+        ListNode temp = head;
+        Stack<Integer> stack = new Stack<>();
+        while (temp != null) {
+            stack.push(temp.val);
+            temp = temp.next;
+        }
+        temp = head;
+        while (temp != null) {
+            if (temp.val != stack.pop()) {
+                return false;
+            }
+            temp = temp.next;
+        }
+        return true;
+    }
+}
+
+The time complexity of this solution is O(n) where n is the number of nodes in the linked list. This is because we iterate through the linked list twice, once to push the values onto the stack and once to compare the values with the popped values from the stack.
+
+The space complexity is also O(n) because we are using a stack to store the values of the linked list nodes. The size of the stack will be at most n, where n is the number of nodes in the linked list.
