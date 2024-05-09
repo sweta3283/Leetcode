@@ -1,0 +1,37 @@
+class Solution
+{
+    //Function to find the length of a loop in the linked list.
+    static int countNodesinLoop(Node head)
+    {
+        Node slow = head;
+        Node fast = head;
+        Node temp = null;
+        int count = 0;
+        if (head == null || head.next == null) {
+            return 0;
+        }
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+            if (slow == fast) {
+                 while(head != slow){
+                    head= head.next;
+                    slow = slow.next;
+                 }
+                 count = count+1;
+                 temp = slow;
+                 slow = slow.next;
+                 while(slow != temp){
+                     slow = slow.next;
+                     count = count+1;
+                 }
+                 return count;
+            }
+        }
+        return 0;
+    }
+}
+
+The time complexity of this solution is O(n) where n is the number of nodes in the linked list. This is because in the worst case scenario, we may have to traverse the entire linked list to find the loop.
+
+The space complexity is O(1) because we are using a constant amount of extra space regardless of the size of the input linked list. We are only using a few extra pointers to keep track of the nodes in the linked list.
