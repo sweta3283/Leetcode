@@ -1,0 +1,30 @@
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ * int val;
+ * ListNode next;
+ * ListNode() {}
+ * ListNode(int val) { this.val = val; }
+ * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+class Solution {
+    public ListNode deleteMiddle(ListNode head) {
+        if (head == null || head.next == null)
+            return null;
+        ListNode prev = head;
+        ListNode slow = prev;
+        ListNode fast = head;
+        while (fast != null && fast.next != null) {
+            prev = slow;
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        prev.next = prev.next.next;
+        return head;
+
+    }
+}
+The time complexity of this solution is O(n) where n is the number of nodes in the linked list. This is because we need to traverse the linked list to find the middle node, which requires iterating through approximately half of the nodes.
+
+The space complexity is O(1) because we are only using a constant amount of extra space, regardless of the size of the input linked list.
