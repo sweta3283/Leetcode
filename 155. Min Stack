@@ -1,0 +1,58 @@
+TC - O(1)
+SC - O(1)
+
+class MinStack {
+    Stack<Long> stack;
+    Long min;
+
+    public MinStack() {
+        stack = new Stack<Long>();
+        min = Long.MAX_VALUE;
+    }
+
+    public void push(int value) {
+        Long val = Long.valueOf(value);
+        if (stack.isEmpty()) {
+            min = val;
+            stack.push(val);
+        } else {
+            Long temp = val;
+            if (val < min) {
+                val = 2 * val - min;
+                min = temp;
+            }
+            stack.push(val);
+            // System.out.println("step2 : " + val + " : " + min);
+        }
+
+    }
+
+    public void pop() {
+        Long v = stack.peek();
+        if (v < min) {
+            min = 2 * min - v;
+        }
+        stack.pop();
+    }
+
+    public int top() {
+        Long top = stack.peek();
+        if (top < min) {
+            return min.intValue();
+        } else
+            return top.intValue();
+    }
+
+    public int getMin() {
+        return min.intValue();
+    }
+}
+
+/**
+ * Your MinStack object will be instantiated and called as such:
+ * MinStack obj = new MinStack();
+ * obj.push(val);
+ * obj.pop();
+ * int param_3 = obj.top();
+ * int param_4 = obj.getMin();
+ */
