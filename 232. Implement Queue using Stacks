@@ -1,0 +1,61 @@
+The time complexity for the push operation is O(1) because we are simply pushing the element onto the input stack. The time complexity for the pop and peek operations is O(n) in the worst case scenario where the output stack is empty and we need to transfer all elements from the input stack to the output stack. However, on average, the time complexity for pop and peek operations is O(1) because we only need to transfer elements occasionally.
+
+The space complexity for the MyQueue class is O(n) where n is the number of elements in the queue. This is because we are using two stacks, input and output, to store the elements in the queue.
+
+class MyQueue {
+    Stack<Integer> input;
+    Stack<Integer> output;
+
+    public MyQueue() {
+        input = new Stack();
+        output = new Stack();
+    }
+
+    public void push(int x) {
+        input.push(x);
+    }
+
+    public int pop() {
+        if (output.empty() == false) {
+            return output.pop();
+        } else {
+            while (input.empty() == false) {
+                output.push(input.peek());
+                input.pop();
+            }
+            return output.pop();
+        }
+    }
+
+    public int peek() {
+        if (output.empty() == false) {
+            return output.peek();
+        } else {
+            while (input.empty() == false) {
+                output.push(input.peek());
+                input.pop();
+            }
+            return output.peek();
+        }
+    }
+
+    public boolean empty() {
+        //System.out.println("empty : " + output.isEmpty());
+        if (input.size() == 1 && output.isEmpty()) {
+            return false;
+        }
+        if (output.isEmpty()) {
+            return true;
+        } else
+            return false;
+    }
+}
+
+/**
+ * Your MyQueue object will be instantiated and called as such:
+ * MyQueue obj = new MyQueue();
+ * obj.push(x);
+ * int param_2 = obj.pop();
+ * int param_3 = obj.peek();
+ * boolean param_4 = obj.empty();
+ */
