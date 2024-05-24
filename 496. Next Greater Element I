@@ -9,7 +9,7 @@ class Solution {
         HashMap<Integer, Integer> map = new HashMap<>();
         int idx = 0;
         while (idx < nums2.length) {
-            if (!stack.isEmpty() && stack.peek() < nums2[idx]) {
+            while (!stack.isEmpty() && stack.peek() < nums2[idx]) {
                 map.put(stack.pop(), nums2[idx]);
             }
             stack.push(nums2[idx]);
