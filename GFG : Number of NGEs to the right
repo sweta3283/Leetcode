@@ -1,0 +1,23 @@
+class Solution {
+  public static int[] count_NGEs(int N, int arr[], int queries, int indices[]) {
+    // code here
+    int[] res = new int[queries];
+   int count=0;
+    for(int i =0; i< queries; i++){
+        count = 0;
+        for(int j=indices[i] + 1; j< arr.length; j++){
+            //System.out.println(j);
+            if(arr[j] > arr[indices[i]]){
+               count++; 
+            }
+        }
+        res[i] = count;
+        //System.out.println(res[i]);
+    }
+     return res;
+  }
+}
+
+The time complexity of the count_NGEs method is O(N*Q), where N is the length of the input array arr and Q is the number of queries. This is because for each query, we iterate through the remaining elements in the array to find the count of elements greater than the element at the specified index.
+
+The space complexity is O(Q) because we are storing the result of each query in an array of size Q.
