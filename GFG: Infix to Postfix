@@ -1,0 +1,67 @@
+class Solution {
+   
+    public static String infixToPostfix(String str) {
+    Stack<Character> stack = new Stack();
+    StringBuilder postFix = new StringBuilder();
+        if(str != null && !str.isEmpty()){
+            char[] charArray = str.toCharArray();
+           for(int i = 0; i< charArray.length ;i++){
+               char c = str.charAt(i);
+               if((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') ||
+               (c >= '0' && c <= '9')){
+                   postFix.append(c);
+               } else if (c == '('){
+                   stack.push(c);
+               } else if (c == ')'){
+                    while (!stack.isEmpty() && stack.peek() != '(') {
+                    postFix.append(stack.pop());
+                }
+                   stack.pop();
+               } else if (!stack.isEmpty() && c == '^' && stack.peek() == '^') {
+                    postFix.append(stack.pop());
+                    stack.push(c);
+                }
+                else {
+                   while(!stack.isEmpty() && (precendance(c) < precendance(stack.peek())
+                   || precendance(c) == precendance(stack.peek()) && associativity(c) == 'L')){
+                       postFix.append(stack.pop());
+                       
+                   }
+                   stack.push(c);
+               }
+               
+              
+           }
+            while (!stack.isEmpty()) {
+            postFix.append(stack.pop());
+        }
+ 
+        }
+        return postFix.toString();
+    }
+  
+     private static Character associativity(Character op){
+        if(op == '^'){
+            return 'R';
+        } else return 'L';
+    }
+    
+    private static int precendance(char c){
+        
+       switch(c){
+                case '+' : case '-' : //First case
+                   return 1;
+                  
+                case '*': case '/': //Second case
+                   return 2;
+                   
+                case '^': //third case
+                   return 3;
+                
+                default: //Default case
+                   return -1;
+                
+            }
+            
+    }  
+}
