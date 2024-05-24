@@ -1,0 +1,24 @@
+The time complexity of this solution is O(n + m), where n is the length of nums1 and m is the length of nums2. This is because we iterate through nums2 to create the mapping of the next greater element for each element, and then iterate through nums1 to retrieve the next greater element from the mapping.
+
+The space complexity is O(n) because we use a stack and a hashmap to store the mapping of the next greater element for each element in nums2, where n is the length of nums1.
+
+class Solution {
+    public int[] nextGreaterElement(int[] nums1, int[] nums2) {
+        int arr[] = new int[nums1.length];
+        Stack<Integer> stack = new Stack();
+        HashMap<Integer, Integer> map = new HashMap<>();
+        int idx = 0;
+        while (idx < nums2.length) {
+            if (!stack.isEmpty() && stack.peek() < nums2[idx]) {
+                map.put(stack.pop(), nums2[idx]);
+            }
+            stack.push(nums2[idx]);
+            idx++;
+        }
+        int idxArray = 0;
+        for (int i = 0; i < nums1.length; i++) {
+            arr[idxArray++] = map.getOrDefault(nums1[i], -1);
+        }
+        return arr;
+    }
+}
