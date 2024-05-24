@@ -1,0 +1,21 @@
+public class Solution {
+    public int[] prevSmaller(int[] A) {
+        int n = A.length;
+        Stack<Integer> stack = new Stack();
+        int[] res = new int[n];
+        for(int i=0; i<n; i++){
+            
+            while(!stack.isEmpty() && stack.peek() >= A[i]){
+                stack.pop();
+            }
+            if(!stack.isEmpty()){
+                res[i] = stack.peek();
+            } else res[i] = -1;
+            stack.push(A[i]);
+        }
+        return res;
+    }
+}
+
+TC - O(N)
+SC - O(N)
