@@ -1,0 +1,40 @@
+The time complexity of this solution is O(n), where n is the length of the input string num. This is because we iterate through each character in the input string once.
+
+The space complexity of this solution is also O(n), as we use a stack data structure to store characters from the input string. The size of the stack can be at most n, where n is the length of the input string.
+
+class Solution {
+
+    public String removeKdigits(String num, int k) {
+        Stack<Character> stack = new Stack();
+        if (k >= num.length()) {
+            return "0";
+        }
+        int tempIndex = 0;
+        for (int i = 0; i < num.length(); i++) {
+            while (!stack.isEmpty() && stack.peek() > num.charAt(i) && k != 0) {
+                stack.pop();
+                k--;
+            }
+            stack.push(num.charAt(i));
+            tempIndex = i;
+        }
+
+        if (tempIndex == num.length() - 1 && k > 0) {
+            while (k > 0 && !stack.isEmpty()) {
+                stack.pop();
+                k--;
+            }
+        }
+
+        int length = stack.size();
+        String ans = "";
+        for (int i = length - 1; i >= 0; i--) {
+            if (!stack.isEmpty())
+                ans = stack.pop() + ans;
+        }
+        while (ans.length() > 1 && ans.charAt(0) == '0') {
+            ans = ans.substring(0, 0) + "" + ans.substring(0 + 1);
+        }
+        return ans;
+    }
+}
