@@ -1,0 +1,19 @@
+class Solution {
+    public int lengthOfLongestSubstring(String s) {
+        int left = 0;
+        int right = 0;
+        int maxLen = -1;
+        int max = 0;
+        int[] hash = new int[128];
+        Arrays.fill(hash, -1);
+        while (right < s.length()) {
+            if (hash[s.charAt(right)] >= left) {
+                left = hash[s.charAt(right)] + 1;
+            }
+            hash[s.charAt(right)] = right;
+            max = Math.max(right - left + 1, max);
+            right++;
+        }
+        return max;
+    }
+}
