@@ -1,0 +1,27 @@
+class Solution{
+    public static void createTree(Node root0, ArrayList<Integer> v ){
+    
+     if(v == null || v.size() == 0){
+         return;
+     }
+      Queue<Node> queue = new LinkedList<>();
+      queue.add(root0);
+      int index =1;
+      while(!queue.isEmpty() && index < v.size()){
+          Node curr = queue.poll();
+          
+          if(index<v.size()){
+              curr.left = new Node(v.get(index));
+              queue.add(curr.left);
+              index++;
+          }
+          
+           if(index<v.size()){
+              curr.right = new Node(v.get(index));
+              queue.add(curr.right);
+              index++;
+          }
+      }
+    }
+    
+}
