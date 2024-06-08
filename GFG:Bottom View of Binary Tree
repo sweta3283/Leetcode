@@ -1,0 +1,40 @@
+class Solution
+{
+       class Pair{
+        Node node;
+        int level;
+         Pair(){
+        }
+         Pair(Node node, int level){
+            this.node = node;
+            this.level = level;
+        }
+    }
+    public ArrayList <Integer> bottomView(Node root)
+    {
+        Queue<Pair> queue = new LinkedList<>();
+        ArrayList<Integer> res = new ArrayList<>();
+        Map<Integer, Integer> map = new TreeMap<>();
+        if(root == null) return res;
+        queue.offer(new Pair(root,0));
+        while(!queue.isEmpty()){
+            Pair pair = queue.element();
+            Node node = pair.node;
+            int level = pair.level;
+            if(node.left != null){
+                queue.offer(new Pair(node.left,level-1));
+            }
+            if(node.right != null){
+                queue.offer(new Pair(node.right,level+1));
+            }
+            pair = queue.poll();
+           
+            map.put(pair.level, pair.node.data);
+       
+        }
+         for(Integer var:map.values()){
+            res.add(var);
+        }
+        return res;
+    }
+}
