@@ -1,0 +1,44 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ * int val;
+ * TreeNode left;
+ * TreeNode right;
+ * TreeNode() {}
+ * TreeNode(int val) { this.val = val; }
+ * TreeNode(int val, TreeNode left, TreeNode right) {
+ * this.val = val;
+ * this.left = left;
+ * this.right = right;
+ * }
+ * }
+ */
+class Solution {
+    public int kthSmallest(TreeNode root, int k) {
+        int[] count = new int[] { 0 };
+        int[] kSmallest = new int[] { Integer.MIN_VALUE };
+        if (root == null) {
+            return 0;
+        }
+        helper(root, count, k, kSmallest);
+        return kSmallest[0];
+    }
+
+    private TreeNode helper(TreeNode node, int[] count, int k, int[] kSmallest) {
+        if (node == null) {
+            return null;
+        }
+        helper(node.left, count, k, kSmallest);
+        count[0]++;
+        if (count[0] == k) {
+            kSmallest[0] = node.val;
+            return node;
+        }
+        helper(node.right, count, k, kSmallest);
+        return node;
+    }
+}
+
+The time complexity of this solution is O(N), where N is the number of nodes in the binary search tree. This is because we are performing an in-order traversal of the tree, visiting each node exactly once.
+
+The space complexity is O(1) because we are using a constant amount of extra space regardless of the input size. The additional space used is for the count and kSmallest arrays, which have a fixed size of 1.
