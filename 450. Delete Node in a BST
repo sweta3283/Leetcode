@@ -1,0 +1,68 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ * int val;
+ * TreeNode left;
+ * TreeNode right;
+ * TreeNode() {}
+ * TreeNode(int val) { this.val = val; }
+ * TreeNode(int val, TreeNode left, TreeNode right) {
+ * this.val = val;
+ * this.left = left;
+ * this.right = right;
+ * }
+ * }
+ */
+class Solution {
+    public TreeNode deleteNode(TreeNode root, int key) {
+        if (root == null) {
+            return null;
+        }
+        if (root.val == key) {
+            return helper(root);
+        }
+        TreeNode temp = root;
+        while (root != null) {
+            if (root.val > key) {
+                if (root.left != null && root.left.val == key) {
+                    root.left = helper(root.left);
+                    break;
+                } else {
+                    root = root.left;
+                }
+            } else {
+                if (root.right != null && root.right.val == key) {
+                    root.right = helper(root.right);
+                    break;
+                } else {
+                    root = root.right;
+                }
+            }
+        }
+        return temp;
+    }
+
+    private TreeNode helper(TreeNode node) {
+        if (node.left == null) {
+            return node.right;
+        }
+        if (node.right == null) {
+            return node.left;
+        }
+        TreeNode rightChild = node.right;
+        TreeNode lastRightOfLeft = findLast(node.left);
+        lastRightOfLeft.right = rightChild;
+        return node.left;
+    }
+
+    private TreeNode findLast(TreeNode node) {
+        if (node.right == null) {
+            return node;
+        }
+        return findLast(node.right);
+    }
+}
+
+The time complexity of this solution is O(log n) in the average case and O(n) in the worst case, where n is the number of nodes in the binary search tree. This is because in the average case, we are able to navigate through the tree efficiently by following the path to the node to be deleted, while in the worst case, we may have to traverse through all nodes in the tree to find the node to be deleted.
+
+The space complexity is O(1) because we are not using any extra space that grows with the input size.
