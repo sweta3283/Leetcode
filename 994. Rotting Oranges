@@ -1,0 +1,61 @@
+class Solution {
+    class Pair {
+        int row;
+        int col;
+        int time;
+
+        Pair(int row, int col, int time) {
+            this.row = row;
+            this.col = col;
+            this.time = time;
+        }
+    }
+
+    public int orangesRotting(int[][] grid) {
+        int n = grid.length;
+        int m = grid[0].length;
+        Queue<Pair> queue = new LinkedList<>();
+        int[][] visited = new int[n][m];
+        int countFresh = 0;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                if (grid[i][j] == 2) {
+                    queue.add(new Pair(i, j, 0));
+                    visited[i][j] = 2;
+                } else {
+                    visited[i][j] = 1;
+                }
+                if (grid[i][j] == 1) {
+                    countFresh++;
+                }
+            }
+        }
+        int time = 0;
+        int delRow[] = { -1, 0, 1, 0 };
+        int delCol[] = { 0, 1, 0, -1 };
+        int count = 0;
+        while (!queue.isEmpty()) {
+            Pair node = queue.peek();
+            int r = node.row;
+            int c = node.col;
+            queue.poll();
+            time = Math.max(time, node.time);
+            for (int i = 0; i < 4; i++) {
+                int drow = r + delRow[i];
+                int dcol = c + delCol[i];
+                if (drow >= 0 && drow < n && dcol >= 0 && dcol < m
+                        && visited[drow][dcol] != 2 && grid[drow][dcol] == 1) {
+                    queue.add(new Pair(drow, dcol, time + 1));
+                    visited[drow][dcol] = 2;
+                    count++;
+                }
+            }
+        }
+
+        if (count != countFresh) {
+            return -1;
+        }
+
+        return time;
+    }
+}
