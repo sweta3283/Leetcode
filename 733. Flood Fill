@@ -1,0 +1,42 @@
+class Solution {
+
+    public int[][] floodFill(int[][] image, int sr, int sc, int color) {
+        int m = image.length;
+        int n = image[0].length;
+        int[][] visited = image;
+        Queue<Pair> queue = new LinkedList<>();
+        int index = image[sr][sc];
+        queue.add(new Pair(sr, sc));
+        visited[sr][sc] = color;
+        while (!queue.isEmpty()) {
+            Pair pair = queue.peek();
+            int r = pair.row;
+            int c = pair.col;
+            queue.poll();
+            int[] delRow = { -1, 0, 1, 0 };
+            int[] delCol = { 0, 1, 0, -1 };
+            for (int i = 0; i < 4; i++) {
+                int rc = r + delRow[i];
+                int cc = c + delCol[i];
+                if (rc >= 0 && cc >= 0 && rc < m && cc < n) {
+                    if (image[rc][cc] == index && visited[rc][cc] != color) {
+                        queue.add(new Pair(rc, cc));
+                        visited[rc][cc] = color;
+                    }
+                }
+            }
+        }
+        return visited;
+    }
+}
+
+class Pair {
+    int row;
+    int col;
+
+    Pair(int row, int col) {
+        this.row = row;
+        this.col = col;
+    }
+
+}
