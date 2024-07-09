@@ -1,0 +1,28 @@
+class Solution {
+    public List<List<String>> displayTable(List<List<String>> orders) {
+        Map<Integer, Map<String, Integer>> map = new TreeMap<>();
+        List<List<String>> res = new ArrayList<>();
+        Set<String> menu = new TreeSet<>();
+        for (List<String> list : orders) {
+            int table = Integer.parseInt(list.get(1));
+            menu.add(list.get(2));
+            map.putIfAbsent(table, new HashMap<>());
+            Map<String, Integer> map1 = map.get(table);
+            map1.put(list.get(2), map1.getOrDefault(list.get(2), 0) + 1);
+        }
+        res.add(new ArrayList<>());
+        res.get(0).add("Table");
+        res.get(0).addAll(menu);
+        for (int tableNum : map.keySet()) {
+            List<String> tableOrder = new ArrayList<>();
+            tableOrder.add(String.valueOf(tableNum));
+            Map<String, Integer> table = map.get(tableNum);
+            for (int i = 1; i < res.get(0).size(); i++) {
+                String meal = res.get(0).get(i);
+                tableOrder.add(table.containsKey(meal) ? String.valueOf(table.get(meal)) : "0");
+            }
+            res.add(tableOrder);
+        }
+        return res;
+    }
+}
