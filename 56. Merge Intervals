@@ -1,0 +1,19 @@
+class Solution {
+    public int[][] merge(int[][] intervals) {
+        List<int[]> result = new ArrayList<>();
+        Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
+        int[] first = intervals[0];
+        result.add(first);
+        for (int[] interval : intervals) {
+            if (interval[0] <= first[1]) {
+                first[1] = Math.max(first[1], interval[1]);
+            } else {
+                first = interval;
+                result.add(first);
+            }
+        }
+        return result.toArray(new int[result.size()][]);
+    }
+}
+
+O(Nlog(N))
