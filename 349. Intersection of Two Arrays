@@ -1,0 +1,16 @@
+class Solution {
+    public int[] intersection(int[] nums1, int[] nums2) {
+        ArrayList<Integer> result = new ArrayList<>();
+        HashSet<Integer> hs1 = new HashSet<>();
+        for (int num : nums2) {
+            hs1.add(num);
+        }
+        for (int num1 : nums1) {
+            if (hs1.contains(num1)) {
+                result.add(num1);
+                hs1.remove(num1);
+            }
+        }
+    return result.stream().mapToInt(i -> i).toArray();
+    }
+}
