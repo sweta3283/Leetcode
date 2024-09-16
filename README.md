@@ -24,4 +24,8 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/sweta3283/Leetcode/tree/master/0011-container-with-most-water) |
+## Linked List
+|  |
+| ------- |
+| [0328-odd-even-linked-list](https://github.com/sweta3283/Leetcode/tree/master/0328-odd-even-linked-list) |
 <!---LeetCode Topics End-->
