@@ -20,6 +20,7 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/sweta3283/Leetcode/tree/master/0011-container-with-most-water) |
+| [1036-rotting-oranges](https://github.com/sweta3283/Leetcode/tree/master/1036-rotting-oranges) |
 ## Greedy
 |  |
 | ------- |
@@ -47,10 +48,15 @@
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/sweta3283/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
+| [1036-rotting-oranges](https://github.com/sweta3283/Leetcode/tree/master/1036-rotting-oranges) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/sweta3283/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/sweta3283/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/sweta3283/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
+## Matrix
+|  |
+| ------- |
+| [1036-rotting-oranges](https://github.com/sweta3283/Leetcode/tree/master/1036-rotting-oranges) |
 <!---LeetCode Topics End-->
