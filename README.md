@@ -39,6 +39,7 @@
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/sweta3283/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/sweta3283/Leetcode/tree/master/0112-path-sum) |
+| [0113-path-sum-ii](https://github.com/sweta3283/Leetcode/tree/master/0113-path-sum-ii) |
 | [0904-leaf-similar-trees](https://github.com/sweta3283/Leetcode/tree/master/0904-leaf-similar-trees) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/sweta3283/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Depth-First Search
@@ -46,6 +47,7 @@
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/sweta3283/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/sweta3283/Leetcode/tree/master/0112-path-sum) |
+| [0113-path-sum-ii](https://github.com/sweta3283/Leetcode/tree/master/0113-path-sum-ii) |
 | [0904-leaf-similar-trees](https://github.com/sweta3283/Leetcode/tree/master/0904-leaf-similar-trees) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/sweta3283/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Breadth-First Search
@@ -60,10 +62,15 @@
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/sweta3283/Leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/sweta3283/Leetcode/tree/master/0112-path-sum) |
+| [0113-path-sum-ii](https://github.com/sweta3283/Leetcode/tree/master/0113-path-sum-ii) |
 | [0904-leaf-similar-trees](https://github.com/sweta3283/Leetcode/tree/master/0904-leaf-similar-trees) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/sweta3283/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Matrix
 |  |
 | ------- |
 | [1036-rotting-oranges](https://github.com/sweta3283/Leetcode/tree/master/1036-rotting-oranges) |
+## Backtracking
+|  |
+| ------- |
+| [0113-path-sum-ii](https://github.com/sweta3283/Leetcode/tree/master/0113-path-sum-ii) |
 <!---LeetCode Topics End-->
