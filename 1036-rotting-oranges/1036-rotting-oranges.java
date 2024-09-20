@@ -12,10 +12,11 @@ class Solution {
     }
 
     public int orangesRotting(int[][] grid) {
+        int max = 0;
         int n = grid.length;
         int m = grid[0].length;
-        Queue<Pair> queue = new LinkedList<>();
         int[][] visited = new int[n][m];
+        Queue<Pair> queue = new LinkedList<>();
         int freshCount = 0;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
@@ -25,33 +26,31 @@ class Solution {
                 } else {
                     visited[i][j] = 1;
                 }
-                if (grid[i][j] == 1) {
+                if ((grid[i][j] == 1)) {
                     freshCount++;
                 }
             }
         }
-        int max = 0;
-        int count = 0;
         int time = 0;
+        int count = 0;
         while (!queue.isEmpty()) {
             Pair p = queue.poll();
-            int ro = p.row;
-            int co = p.col;
+            int row = p.row;
+            int col = p.col;
             time = p.time;
             time = Math.max(max, time);
-            int[][] neighbours = { { ro - 1, co }, { ro, co + 1 }, { ro + 1, co }, { ro, co - 1 } };
-            for (int[] neighbour : neighbours) {
-                int nr = neighbour[0];
-                int nc = neighbour[1];
-                if (nr >= 0 && nr < n && nc >= 0 && nc < m && grid[nr][nc] == 1
-                        && visited[nr][nc] != 2) {
-                    queue.offer(new Pair(nr, nc, time + 1));
+            int[][] adjList = { { row - 1, col }, { row, col + 1 }, { row + 1, col }, { row, col - 1 } };
+            for (int[] adj : adjList) {
+                int nr = adj[0];
+                int nc = adj[1];
+                if (nr >= 0 && nr < n && nc >= 0 && nc < m && visited[nr][nc] != 2 && grid[nr][nc] == 1) {
                     visited[nr][nc] = 2;
+                    queue.offer(new Pair(nr, nc, time + 1));
                     count++;
                 }
             }
         }
-        if (count != freshCount) {
+        if (freshCount != count) {
             return -1;
         }
         return time;
