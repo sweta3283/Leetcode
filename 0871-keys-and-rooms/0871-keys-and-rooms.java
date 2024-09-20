@@ -11,7 +11,6 @@ class Solution {
         while (!queue.isEmpty()) {
             int data = queue.poll();
             visited[data] = true;
-            System.out.println(data + " : " + visited[data]);
 
             List<Integer> adjList = rooms.get(data);
             for (int i = 0; i < adjList.size(); i++) {
@@ -22,7 +21,6 @@ class Solution {
             }
         }
         for (int i = 0; i < visited.length; i++) {
-            System.out.println(visited[i]);
             if (!visited[i])
                 return false;
         }
