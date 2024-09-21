@@ -20,6 +20,7 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/sweta3283/Leetcode/tree/master/0011-container-with-most-water) |
+| [0136-single-number](https://github.com/sweta3283/Leetcode/tree/master/0136-single-number) |
 | [1036-rotting-oranges](https://github.com/sweta3283/Leetcode/tree/master/1036-rotting-oranges) |
 ## Greedy
 |  |
@@ -88,4 +89,8 @@
 |  |
 | ------- |
 | [0871-keys-and-rooms](https://github.com/sweta3283/Leetcode/tree/master/0871-keys-and-rooms) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0136-single-number](https://github.com/sweta3283/Leetcode/tree/master/0136-single-number) |
 <!---LeetCode Topics End-->
