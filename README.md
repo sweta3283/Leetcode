@@ -22,6 +22,7 @@
 | [0011-container-with-most-water](https://github.com/sweta3283/Leetcode/tree/master/0011-container-with-most-water) |
 | [0136-single-number](https://github.com/sweta3283/Leetcode/tree/master/0136-single-number) |
 | [1036-rotting-oranges](https://github.com/sweta3283/Leetcode/tree/master/1036-rotting-oranges) |
+| [2038-nearest-exit-from-entrance-in-maze](https://github.com/sweta3283/Leetcode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 ## Greedy
 |  |
 | ------- |
@@ -63,6 +64,7 @@
 | [0871-keys-and-rooms](https://github.com/sweta3283/Leetcode/tree/master/0871-keys-and-rooms) |
 | [1036-rotting-oranges](https://github.com/sweta3283/Leetcode/tree/master/1036-rotting-oranges) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/sweta3283/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
+| [2038-nearest-exit-from-entrance-in-maze](https://github.com/sweta3283/Leetcode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 ## Binary Tree
 |  |
 | ------- |
@@ -77,6 +79,7 @@
 |  |
 | ------- |
 | [1036-rotting-oranges](https://github.com/sweta3283/Leetcode/tree/master/1036-rotting-oranges) |
+| [2038-nearest-exit-from-entrance-in-maze](https://github.com/sweta3283/Leetcode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 ## Backtracking
 |  |
 | ------- |
