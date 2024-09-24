@@ -13,6 +13,7 @@
 |  |
 | ------- |
 | [0392-is-subsequence](https://github.com/sweta3283/Leetcode/tree/master/0392-is-subsequence) |
+| [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/sweta3283/Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -106,4 +107,8 @@
 |  |
 | ------- |
 | [1798-max-number-of-k-sum-pairs](https://github.com/sweta3283/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
+## Sliding Window
+|  |
+| ------- |
+| [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/sweta3283/Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 <!---LeetCode Topics End-->
