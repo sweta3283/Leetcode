@@ -27,6 +27,7 @@
 | [0136-single-number](https://github.com/sweta3283/Leetcode/tree/master/0136-single-number) |
 | [0189-rotate-array](https://github.com/sweta3283/Leetcode/tree/master/0189-rotate-array) |
 | [1036-rotting-oranges](https://github.com/sweta3283/Leetcode/tree/master/1036-rotting-oranges) |
+| [1046-max-consecutive-ones-iii](https://github.com/sweta3283/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/sweta3283/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/sweta3283/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/sweta3283/Leetcode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
@@ -95,6 +96,7 @@
 |  |
 | ------- |
 | [0783-search-in-a-binary-search-tree](https://github.com/sweta3283/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
+| [1046-max-consecutive-ones-iii](https://github.com/sweta3283/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 ## Graph
 |  |
 | ------- |
@@ -114,10 +116,15 @@
 ## Sliding Window
 |  |
 | ------- |
+| [1046-max-consecutive-ones-iii](https://github.com/sweta3283/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/sweta3283/Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/sweta3283/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 ## Math
 |  |
 | ------- |
 | [0189-rotate-array](https://github.com/sweta3283/Leetcode/tree/master/0189-rotate-array) |
+## Prefix Sum
+|  |
+| ------- |
+| [1046-max-consecutive-ones-iii](https://github.com/sweta3283/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 <!---LeetCode Topics End-->
