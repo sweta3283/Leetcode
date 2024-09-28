@@ -1,23 +1,24 @@
 class Solution {
     public int longestOnes(int[] nums, int k) {
-        // longest consecutive subarray with maximun K times 0 will be the answer
         int left = 0;
         int right = 0;
         int maxLen = 0;
-        int zeroCount = 0;
+        int zero = 0;
         while (right < nums.length) {
             if (nums[right] == 0) {
-                zeroCount++;
+                zero++;
             }
-            if (zeroCount <= k) {
+            if (zero <= k) {
                 maxLen = Math.max(maxLen, right - left + 1);
+
             } else {
-               if(nums[left] == 0){
-                zeroCount--;
-               }
-               left++;
+                if (nums[left] == 0) {
+                    zero--;
+                }
+                left++;
             }
             right++;
+
         }
         return maxLen;
     }
