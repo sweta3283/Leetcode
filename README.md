@@ -29,6 +29,7 @@
 | [0011-container-with-most-water](https://github.com/sweta3283/Leetcode/tree/master/0011-container-with-most-water) |
 | [0136-single-number](https://github.com/sweta3283/Leetcode/tree/master/0136-single-number) |
 | [0189-rotate-array](https://github.com/sweta3283/Leetcode/tree/master/0189-rotate-array) |
+| [0238-product-of-array-except-self](https://github.com/sweta3283/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0643-maximum-average-subarray-i](https://github.com/sweta3283/Leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [0724-find-pivot-index](https://github.com/sweta3283/Leetcode/tree/master/0724-find-pivot-index) |
 | [1036-rotting-oranges](https://github.com/sweta3283/Leetcode/tree/master/1036-rotting-oranges) |
@@ -141,6 +142,7 @@
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/sweta3283/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0724-find-pivot-index](https://github.com/sweta3283/Leetcode/tree/master/0724-find-pivot-index) |
 | [1046-max-consecutive-ones-iii](https://github.com/sweta3283/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1694-make-sum-divisible-by-p](https://github.com/sweta3283/Leetcode/tree/master/1694-make-sum-divisible-by-p) |
