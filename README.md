@@ -32,6 +32,7 @@
 | [1036-rotting-oranges](https://github.com/sweta3283/Leetcode/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/sweta3283/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1256-rank-transform-of-an-array](https://github.com/sweta3283/Leetcode/tree/master/1256-rank-transform-of-an-array) |
+| [1528-kids-with-the-greatest-number-of-candies](https://github.com/sweta3283/Leetcode/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/sweta3283/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1694-make-sum-divisible-by-p](https://github.com/sweta3283/Leetcode/tree/master/1694-make-sum-divisible-by-p) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/sweta3283/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
