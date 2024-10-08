@@ -9,6 +9,7 @@
 | [0011-container-with-most-water](https://github.com/sweta3283/Leetcode/tree/master/0011-container-with-most-water) |
 | [0151-reverse-words-in-a-string](https://github.com/sweta3283/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/sweta3283/Leetcode/tree/master/0189-rotate-array) |
+| [0283-move-zeroes](https://github.com/sweta3283/Leetcode/tree/master/0283-move-zeroes) |
 | [0392-is-subsequence](https://github.com/sweta3283/Leetcode/tree/master/0392-is-subsequence) |
 | [0443-string-compression](https://github.com/sweta3283/Leetcode/tree/master/0443-string-compression) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/sweta3283/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
@@ -32,6 +33,7 @@
 | [0136-single-number](https://github.com/sweta3283/Leetcode/tree/master/0136-single-number) |
 | [0189-rotate-array](https://github.com/sweta3283/Leetcode/tree/master/0189-rotate-array) |
 | [0238-product-of-array-except-self](https://github.com/sweta3283/Leetcode/tree/master/0238-product-of-array-except-self) |
+| [0283-move-zeroes](https://github.com/sweta3283/Leetcode/tree/master/0283-move-zeroes) |
 | [0334-increasing-triplet-subsequence](https://github.com/sweta3283/Leetcode/tree/master/0334-increasing-triplet-subsequence) |
 | [0643-maximum-average-subarray-i](https://github.com/sweta3283/Leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [0724-find-pivot-index](https://github.com/sweta3283/Leetcode/tree/master/0724-find-pivot-index) |
