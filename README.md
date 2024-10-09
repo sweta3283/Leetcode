@@ -19,6 +19,7 @@
 | [0151-reverse-words-in-a-string](https://github.com/sweta3283/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0392-is-subsequence](https://github.com/sweta3283/Leetcode/tree/master/0392-is-subsequence) |
 | [0443-string-compression](https://github.com/sweta3283/Leetcode/tree/master/0443-string-compression) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/sweta3283/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/sweta3283/Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1777-determine-if-two-strings-are-close](https://github.com/sweta3283/Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 ## Dynamic Programming
@@ -51,6 +52,7 @@
 | ------- |
 | [0011-container-with-most-water](https://github.com/sweta3283/Leetcode/tree/master/0011-container-with-most-water) |
 | [0334-increasing-triplet-subsequence](https://github.com/sweta3283/Leetcode/tree/master/0334-increasing-triplet-subsequence) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/sweta3283/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 ## Linked List
 |  |
 | ------- |
@@ -157,4 +159,8 @@
 |  |
 | ------- |
 | [1777-determine-if-two-strings-are-close](https://github.com/sweta3283/Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
+## Stack
+|  |
+| ------- |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/sweta3283/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 <!---LeetCode Topics End-->
