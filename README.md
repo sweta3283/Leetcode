@@ -39,6 +39,7 @@
 | [0334-increasing-triplet-subsequence](https://github.com/sweta3283/Leetcode/tree/master/0334-increasing-triplet-subsequence) |
 | [0643-maximum-average-subarray-i](https://github.com/sweta3283/Leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [0724-find-pivot-index](https://github.com/sweta3283/Leetcode/tree/master/0724-find-pivot-index) |
+| [1002-maximum-width-ramp](https://github.com/sweta3283/Leetcode/tree/master/1002-maximum-width-ramp) |
 | [1036-rotting-oranges](https://github.com/sweta3283/Leetcode/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/sweta3283/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1256-rank-transform-of-an-array](https://github.com/sweta3283/Leetcode/tree/master/1256-rank-transform-of-an-array) |
@@ -165,4 +166,9 @@
 |  |
 | ------- |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/sweta3283/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1002-maximum-width-ramp](https://github.com/sweta3283/Leetcode/tree/master/1002-maximum-width-ramp) |
+## Monotonic Stack
+|  |
+| ------- |
+| [1002-maximum-width-ramp](https://github.com/sweta3283/Leetcode/tree/master/1002-maximum-width-ramp) |
 <!---LeetCode Topics End-->
