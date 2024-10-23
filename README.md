@@ -14,6 +14,7 @@
 | [0443-string-compression](https://github.com/sweta3283/Leetcode/tree/master/0443-string-compression) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/sweta3283/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/sweta3283/Leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
+| [2553-total-cost-to-hire-k-workers](https://github.com/sweta3283/Leetcode/tree/master/2553-total-cost-to-hire-k-workers) |
 ## String
 |  |
 | ------- |
@@ -55,6 +56,7 @@
 | [1798-max-number-of-k-sum-pairs](https://github.com/sweta3283/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1833-find-the-highest-altitude](https://github.com/sweta3283/Leetcode/tree/master/1833-find-the-highest-altitude) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/sweta3283/Leetcode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
+| [2553-total-cost-to-hire-k-workers](https://github.com/sweta3283/Leetcode/tree/master/2553-total-cost-to-hire-k-workers) |
 ## Greedy
 |  |
 | ------- |
@@ -192,8 +194,10 @@
 |  |
 | ------- |
 | [2470-removing-stars-from-a-string](https://github.com/sweta3283/Leetcode/tree/master/2470-removing-stars-from-a-string) |
+| [2553-total-cost-to-hire-k-workers](https://github.com/sweta3283/Leetcode/tree/master/2553-total-cost-to-hire-k-workers) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
 | [1127-last-stone-weight](https://github.com/sweta3283/Leetcode/tree/master/1127-last-stone-weight) |
+| [2553-total-cost-to-hire-k-workers](https://github.com/sweta3283/Leetcode/tree/master/2553-total-cost-to-hire-k-workers) |
 <!---LeetCode Topics End-->
