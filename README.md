@@ -47,6 +47,7 @@
 | [1002-maximum-width-ramp](https://github.com/sweta3283/Leetcode/tree/master/1002-maximum-width-ramp) |
 | [1036-rotting-oranges](https://github.com/sweta3283/Leetcode/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/sweta3283/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
+| [1127-last-stone-weight](https://github.com/sweta3283/Leetcode/tree/master/1127-last-stone-weight) |
 | [1256-rank-transform-of-an-array](https://github.com/sweta3283/Leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/sweta3283/Leetcode/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/sweta3283/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
@@ -191,4 +192,8 @@
 |  |
 | ------- |
 | [2470-removing-stars-from-a-string](https://github.com/sweta3283/Leetcode/tree/master/2470-removing-stars-from-a-string) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [1127-last-stone-weight](https://github.com/sweta3283/Leetcode/tree/master/1127-last-stone-weight) |
 <!---LeetCode Topics End-->
