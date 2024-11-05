@@ -7,16 +7,15 @@ class Solution {
         while (pq.size() > 1) {
             int first = pq.poll();
             int sec = pq.poll();
-
             if (first != sec) {
                 sec = first - sec;
                 pq.offer(sec);
             }
         }
-        if (pq.isEmpty()) {
-            return 0;
-        } else
+        if (!pq.isEmpty()) {
             return pq.poll();
-
+        } else {
+            return 0;
+        }
     }
 }
