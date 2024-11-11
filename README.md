@@ -18,6 +18,7 @@
 ## String
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/sweta3283/Leetcode/tree/master/0013-roman-to-integer) |
 | [0151-reverse-words-in-a-string](https://github.com/sweta3283/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0392-is-subsequence](https://github.com/sweta3283/Leetcode/tree/master/0392-is-subsequence) |
 | [0443-string-compression](https://github.com/sweta3283/Leetcode/tree/master/0443-string-compression) |
@@ -149,6 +150,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/sweta3283/Leetcode/tree/master/0013-roman-to-integer) |
 | [1256-rank-transform-of-an-array](https://github.com/sweta3283/Leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1694-make-sum-divisible-by-p](https://github.com/sweta3283/Leetcode/tree/master/1694-make-sum-divisible-by-p) |
 | [1777-determine-if-two-strings-are-close](https://github.com/sweta3283/Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
@@ -173,6 +175,7 @@
 ## Math
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/sweta3283/Leetcode/tree/master/0013-roman-to-integer) |
 | [0189-rotate-array](https://github.com/sweta3283/Leetcode/tree/master/0189-rotate-array) |
 ## Prefix Sum
 |  |
