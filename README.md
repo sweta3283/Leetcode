@@ -58,6 +58,7 @@
 | [1798-max-number-of-k-sum-pairs](https://github.com/sweta3283/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1833-find-the-highest-altitude](https://github.com/sweta3283/Leetcode/tree/master/1833-find-the-highest-altitude) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/sweta3283/Leetcode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
+| [2428-equal-row-and-column-pairs](https://github.com/sweta3283/Leetcode/tree/master/2428-equal-row-and-column-pairs) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/sweta3283/Leetcode/tree/master/2553-total-cost-to-hire-k-workers) |
 | [2636-maximum-subsequence-score](https://github.com/sweta3283/Leetcode/tree/master/2636-maximum-subsequence-score) |
 ## Greedy
@@ -128,6 +129,7 @@
 | ------- |
 | [1036-rotting-oranges](https://github.com/sweta3283/Leetcode/tree/master/1036-rotting-oranges) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/sweta3283/Leetcode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
+| [2428-equal-row-and-column-pairs](https://github.com/sweta3283/Leetcode/tree/master/2428-equal-row-and-column-pairs) |
 ## Backtracking
 |  |
 | ------- |
@@ -155,6 +157,7 @@
 | [1694-make-sum-divisible-by-p](https://github.com/sweta3283/Leetcode/tree/master/1694-make-sum-divisible-by-p) |
 | [1777-determine-if-two-strings-are-close](https://github.com/sweta3283/Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/sweta3283/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
+| [2428-equal-row-and-column-pairs](https://github.com/sweta3283/Leetcode/tree/master/2428-equal-row-and-column-pairs) |
 ## Sorting
 |  |
 | ------- |
@@ -203,6 +206,7 @@
 ## Simulation
 |  |
 | ------- |
+| [2428-equal-row-and-column-pairs](https://github.com/sweta3283/Leetcode/tree/master/2428-equal-row-and-column-pairs) |
 | [2470-removing-stars-from-a-string](https://github.com/sweta3283/Leetcode/tree/master/2470-removing-stars-from-a-string) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/sweta3283/Leetcode/tree/master/2553-total-cost-to-hire-k-workers) |
 ## Heap (Priority Queue)
