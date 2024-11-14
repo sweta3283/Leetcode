@@ -21,6 +21,7 @@
 | [0013-roman-to-integer](https://github.com/sweta3283/Leetcode/tree/master/0013-roman-to-integer) |
 | [0151-reverse-words-in-a-string](https://github.com/sweta3283/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0392-is-subsequence](https://github.com/sweta3283/Leetcode/tree/master/0392-is-subsequence) |
+| [0394-decode-string](https://github.com/sweta3283/Leetcode/tree/master/0394-decode-string) |
 | [0443-string-compression](https://github.com/sweta3283/Leetcode/tree/master/0443-string-compression) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/sweta3283/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/sweta3283/Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
@@ -82,6 +83,7 @@
 |  |
 | ------- |
 | [0206-reverse-linked-list](https://github.com/sweta3283/Leetcode/tree/master/0206-reverse-linked-list) |
+| [0394-decode-string](https://github.com/sweta3283/Leetcode/tree/master/0394-decode-string) |
 ## Tree
 |  |
 | ------- |
@@ -200,6 +202,7 @@
 ## Stack
 |  |
 | ------- |
+| [0394-decode-string](https://github.com/sweta3283/Leetcode/tree/master/0394-decode-string) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/sweta3283/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1002-maximum-width-ramp](https://github.com/sweta3283/Leetcode/tree/master/1002-maximum-width-ramp) |
 | [2470-removing-stars-from-a-string](https://github.com/sweta3283/Leetcode/tree/master/2470-removing-stars-from-a-string) |
