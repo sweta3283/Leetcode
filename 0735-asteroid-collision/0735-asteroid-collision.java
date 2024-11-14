@@ -1,29 +1,30 @@
 class Solution {
-    public int[] asteroidCollision(int[] asteriods) {
-        int n = asteriods.length;
+    public int[] asteroidCollision(int[] arr) {
+        // when stack is empty or asteroids are positive
+        // add it to stack
+        // when stack is not empty and asteroid coming is negative and top is also
+        // negative
+        // add the asteroid to stack
         Stack<Integer> stack = new Stack();
-        for (int i = 0; i < n; i++) {
-            // case when stack is empty or positive element then blind insertion
-            if (stack.isEmpty() || asteriods[i] > 0) {
-                stack.push(asteriods[i]);
+        for (int asteroid : arr) {
+            if (stack.isEmpty() || asteroid > 0) {
+                stack.push(asteroid);
             } else {
-                // case when stack is not empty
                 while (!stack.isEmpty()) {
                     int top = stack.peek();
-                    // top is negative then blindly add incoming
                     if (top < 0) {
-                        stack.push(asteriods[i]);
+                        stack.push(asteroid);
                         break;
                     } else {
-                        if (asteriods[i] < 0) {
-                            int absoluteVal = Math.abs(asteriods[i]);
-                            if (absoluteVal > top) {
+                        if (asteroid < 0) {
+                            int absVal = Math.abs(asteroid);
+                            if (absVal > top) {
                                 stack.pop();
                                 if (stack.isEmpty()) {
-                                    stack.push(asteriods[i]);
+                                    stack.push(asteroid);
                                     break;
                                 }
-                            } else if (absoluteVal == top) {
+                            } else if (absVal == top) {
                                 stack.pop();
                                 break;
                             } else {
@@ -34,11 +35,10 @@ class Solution {
                 }
             }
         }
-        int len = stack.size();
-        int[] res = new int[len];
-        for (int i = len - 1; i >= 0; i--) {
-            res[i] = stack.pop();
+        int[] result = new int[stack.size()];
+        for (int i = stack.size() - 1; i >= 0; i--) {
+            result[i] = stack.pop();
         }
-        return res;
+        return result;
     }
 }
