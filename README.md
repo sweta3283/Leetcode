@@ -48,6 +48,7 @@
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/sweta3283/Leetcode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0643-maximum-average-subarray-i](https://github.com/sweta3283/Leetcode/tree/master/0643-maximum-average-subarray-i) |
 | [0724-find-pivot-index](https://github.com/sweta3283/Leetcode/tree/master/0724-find-pivot-index) |
+| [0735-asteroid-collision](https://github.com/sweta3283/Leetcode/tree/master/0735-asteroid-collision) |
 | [1002-maximum-width-ramp](https://github.com/sweta3283/Leetcode/tree/master/1002-maximum-width-ramp) |
 | [1036-rotting-oranges](https://github.com/sweta3283/Leetcode/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/sweta3283/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
@@ -203,6 +204,7 @@
 |  |
 | ------- |
 | [0394-decode-string](https://github.com/sweta3283/Leetcode/tree/master/0394-decode-string) |
+| [0735-asteroid-collision](https://github.com/sweta3283/Leetcode/tree/master/0735-asteroid-collision) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/sweta3283/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1002-maximum-width-ramp](https://github.com/sweta3283/Leetcode/tree/master/1002-maximum-width-ramp) |
 | [2470-removing-stars-from-a-string](https://github.com/sweta3283/Leetcode/tree/master/2470-removing-stars-from-a-string) |
@@ -213,6 +215,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0735-asteroid-collision](https://github.com/sweta3283/Leetcode/tree/master/0735-asteroid-collision) |
 | [2428-equal-row-and-column-pairs](https://github.com/sweta3283/Leetcode/tree/master/2428-equal-row-and-column-pairs) |
 | [2470-removing-stars-from-a-string](https://github.com/sweta3283/Leetcode/tree/master/2470-removing-stars-from-a-string) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/sweta3283/Leetcode/tree/master/2553-total-cost-to-hire-k-workers) |
