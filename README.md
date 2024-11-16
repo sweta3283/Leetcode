@@ -15,6 +15,7 @@
 | [1798-max-number-of-k-sum-pairs](https://github.com/sweta3283/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/sweta3283/Leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/sweta3283/Leetcode/tree/master/2553-total-cost-to-hire-k-workers) |
+| [3471-minimum-average-of-smallest-and-largest-elements](https://github.com/sweta3283/Leetcode/tree/master/3471-minimum-average-of-smallest-and-largest-elements) |
 ## String
 |  |
 | ------- |
@@ -66,6 +67,7 @@
 | [2553-total-cost-to-hire-k-workers](https://github.com/sweta3283/Leetcode/tree/master/2553-total-cost-to-hire-k-workers) |
 | [2636-maximum-subsequence-score](https://github.com/sweta3283/Leetcode/tree/master/2636-maximum-subsequence-score) |
 | [3469-maximum-height-of-a-triangle](https://github.com/sweta3283/Leetcode/tree/master/3469-maximum-height-of-a-triangle) |
+| [3471-minimum-average-of-smallest-and-largest-elements](https://github.com/sweta3283/Leetcode/tree/master/3471-minimum-average-of-smallest-and-largest-elements) |
 ## Greedy
 |  |
 | ------- |
@@ -176,6 +178,7 @@
 | [1777-determine-if-two-strings-are-close](https://github.com/sweta3283/Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/sweta3283/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2636-maximum-subsequence-score](https://github.com/sweta3283/Leetcode/tree/master/2636-maximum-subsequence-score) |
+| [3471-minimum-average-of-smallest-and-largest-elements](https://github.com/sweta3283/Leetcode/tree/master/3471-minimum-average-of-smallest-and-largest-elements) |
 ## Sliding Window
 |  |
 | ------- |
