@@ -65,6 +65,7 @@
 | [2428-equal-row-and-column-pairs](https://github.com/sweta3283/Leetcode/tree/master/2428-equal-row-and-column-pairs) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/sweta3283/Leetcode/tree/master/2553-total-cost-to-hire-k-workers) |
 | [2636-maximum-subsequence-score](https://github.com/sweta3283/Leetcode/tree/master/2636-maximum-subsequence-score) |
+| [3469-maximum-height-of-a-triangle](https://github.com/sweta3283/Leetcode/tree/master/3469-maximum-height-of-a-triangle) |
 ## Greedy
 |  |
 | ------- |
@@ -251,4 +252,8 @@
 |  |
 | ------- |
 | [0374-guess-number-higher-or-lower](https://github.com/sweta3283/Leetcode/tree/master/0374-guess-number-higher-or-lower) |
+## Enumeration
+|  |
+| ------- |
+| [3469-maximum-height-of-a-triangle](https://github.com/sweta3283/Leetcode/tree/master/3469-maximum-height-of-a-triangle) |
 <!---LeetCode Topics End-->
