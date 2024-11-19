@@ -66,6 +66,7 @@
 | [2428-equal-row-and-column-pairs](https://github.com/sweta3283/Leetcode/tree/master/2428-equal-row-and-column-pairs) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/sweta3283/Leetcode/tree/master/2553-total-cost-to-hire-k-workers) |
 | [2636-maximum-subsequence-score](https://github.com/sweta3283/Leetcode/tree/master/2636-maximum-subsequence-score) |
+| [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/sweta3283/Leetcode/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3418-count-pairs-that-form-a-complete-day-ii](https://github.com/sweta3283/Leetcode/tree/master/3418-count-pairs-that-form-a-complete-day-ii) |
 | [3421-count-pairs-that-form-a-complete-day-i](https://github.com/sweta3283/Leetcode/tree/master/3421-count-pairs-that-form-a-complete-day-i) |
 | [3469-maximum-height-of-a-triangle](https://github.com/sweta3283/Leetcode/tree/master/3469-maximum-height-of-a-triangle) |
@@ -190,6 +191,7 @@
 | [1046-max-consecutive-ones-iii](https://github.com/sweta3283/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/sweta3283/Leetcode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/sweta3283/Leetcode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
+| [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/sweta3283/Leetcode/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 ## Math
 |  |
 | ------- |
