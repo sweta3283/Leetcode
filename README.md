@@ -67,6 +67,7 @@
 | [2553-total-cost-to-hire-k-workers](https://github.com/sweta3283/Leetcode/tree/master/2553-total-cost-to-hire-k-workers) |
 | [2636-maximum-subsequence-score](https://github.com/sweta3283/Leetcode/tree/master/2636-maximum-subsequence-score) |
 | [3418-count-pairs-that-form-a-complete-day-ii](https://github.com/sweta3283/Leetcode/tree/master/3418-count-pairs-that-form-a-complete-day-ii) |
+| [3421-count-pairs-that-form-a-complete-day-i](https://github.com/sweta3283/Leetcode/tree/master/3421-count-pairs-that-form-a-complete-day-i) |
 | [3469-maximum-height-of-a-triangle](https://github.com/sweta3283/Leetcode/tree/master/3469-maximum-height-of-a-triangle) |
 | [3471-minimum-average-of-smallest-and-largest-elements](https://github.com/sweta3283/Leetcode/tree/master/3471-minimum-average-of-smallest-and-largest-elements) |
 ## Greedy
@@ -170,6 +171,7 @@
 | [1798-max-number-of-k-sum-pairs](https://github.com/sweta3283/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2428-equal-row-and-column-pairs](https://github.com/sweta3283/Leetcode/tree/master/2428-equal-row-and-column-pairs) |
 | [3418-count-pairs-that-form-a-complete-day-ii](https://github.com/sweta3283/Leetcode/tree/master/3418-count-pairs-that-form-a-complete-day-ii) |
+| [3421-count-pairs-that-form-a-complete-day-i](https://github.com/sweta3283/Leetcode/tree/master/3421-count-pairs-that-form-a-complete-day-i) |
 ## Sorting
 |  |
 | ------- |
@@ -207,6 +209,7 @@
 | ------- |
 | [1777-determine-if-two-strings-are-close](https://github.com/sweta3283/Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [3418-count-pairs-that-form-a-complete-day-ii](https://github.com/sweta3283/Leetcode/tree/master/3418-count-pairs-that-form-a-complete-day-ii) |
+| [3421-count-pairs-that-form-a-complete-day-i](https://github.com/sweta3283/Leetcode/tree/master/3421-count-pairs-that-form-a-complete-day-i) |
 ## Stack
 |  |
 | ------- |
