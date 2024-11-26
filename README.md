@@ -63,6 +63,7 @@
 | [1798-max-number-of-k-sum-pairs](https://github.com/sweta3283/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
 | [1833-find-the-highest-altitude](https://github.com/sweta3283/Leetcode/tree/master/1833-find-the-highest-altitude) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/sweta3283/Leetcode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
+| [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/sweta3283/Leetcode/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
 | [2428-equal-row-and-column-pairs](https://github.com/sweta3283/Leetcode/tree/master/2428-equal-row-and-column-pairs) |
 | [2553-total-cost-to-hire-k-workers](https://github.com/sweta3283/Leetcode/tree/master/2553-total-cost-to-hire-k-workers) |
 | [2636-maximum-subsequence-score](https://github.com/sweta3283/Leetcode/tree/master/2636-maximum-subsequence-score) |
@@ -170,6 +171,7 @@
 | [1694-make-sum-divisible-by-p](https://github.com/sweta3283/Leetcode/tree/master/1694-make-sum-divisible-by-p) |
 | [1777-determine-if-two-strings-are-close](https://github.com/sweta3283/Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/sweta3283/Leetcode/tree/master/1798-max-number-of-k-sum-pairs) |
+| [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/sweta3283/Leetcode/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
 | [2428-equal-row-and-column-pairs](https://github.com/sweta3283/Leetcode/tree/master/2428-equal-row-and-column-pairs) |
 | [3418-count-pairs-that-form-a-complete-day-ii](https://github.com/sweta3283/Leetcode/tree/master/3418-count-pairs-that-form-a-complete-day-ii) |
 | [3421-count-pairs-that-form-a-complete-day-i](https://github.com/sweta3283/Leetcode/tree/master/3421-count-pairs-that-form-a-complete-day-i) |
@@ -210,6 +212,7 @@
 |  |
 | ------- |
 | [1777-determine-if-two-strings-are-close](https://github.com/sweta3283/Leetcode/tree/master/1777-determine-if-two-strings-are-close) |
+| [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/sweta3283/Leetcode/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
 | [3418-count-pairs-that-form-a-complete-day-ii](https://github.com/sweta3283/Leetcode/tree/master/3418-count-pairs-that-form-a-complete-day-ii) |
 | [3421-count-pairs-that-form-a-complete-day-i](https://github.com/sweta3283/Leetcode/tree/master/3421-count-pairs-that-form-a-complete-day-i) |
 ## Stack
