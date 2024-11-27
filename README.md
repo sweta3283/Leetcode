@@ -7,6 +7,7 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/sweta3283/Leetcode/tree/master/0011-container-with-most-water) |
+| [0125-valid-palindrome](https://github.com/sweta3283/Leetcode/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/sweta3283/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/sweta3283/Leetcode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/sweta3283/Leetcode/tree/master/0283-move-zeroes) |
@@ -20,6 +21,7 @@
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/sweta3283/Leetcode/tree/master/0013-roman-to-integer) |
+| [0125-valid-palindrome](https://github.com/sweta3283/Leetcode/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/sweta3283/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0392-is-subsequence](https://github.com/sweta3283/Leetcode/tree/master/0392-is-subsequence) |
 | [0394-decode-string](https://github.com/sweta3283/Leetcode/tree/master/0394-decode-string) |
