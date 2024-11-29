@@ -41,6 +41,7 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/sweta3283/Leetcode/tree/master/0011-container-with-most-water) |
+| [0046-permutations](https://github.com/sweta3283/Leetcode/tree/master/0046-permutations) |
 | [0136-single-number](https://github.com/sweta3283/Leetcode/tree/master/0136-single-number) |
 | [0189-rotate-array](https://github.com/sweta3283/Leetcode/tree/master/0189-rotate-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/sweta3283/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
@@ -147,6 +148,7 @@
 ## Backtracking
 |  |
 | ------- |
+| [0046-permutations](https://github.com/sweta3283/Leetcode/tree/master/0046-permutations) |
 | [0113-path-sum-ii](https://github.com/sweta3283/Leetcode/tree/master/0113-path-sum-ii) |
 ## Binary Search Tree
 |  |
