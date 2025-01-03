@@ -45,6 +45,7 @@
 | [0011-container-with-most-water](https://github.com/sweta3283/Leetcode/tree/master/0011-container-with-most-water) |
 | [0016-3sum-closest](https://github.com/sweta3283/Leetcode/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/sweta3283/Leetcode/tree/master/0018-4sum) |
+| [0033-search-in-rotated-sorted-array](https://github.com/sweta3283/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0046-permutations](https://github.com/sweta3283/Leetcode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/sweta3283/Leetcode/tree/master/0047-permutations-ii) |
 | [0136-single-number](https://github.com/sweta3283/Leetcode/tree/master/0136-single-number) |
@@ -159,6 +160,7 @@
 ## Binary Search Tree
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/sweta3283/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0374-guess-number-higher-or-lower](https://github.com/sweta3283/Leetcode/tree/master/0374-guess-number-higher-or-lower) |
 | [0450-delete-node-in-a-bst](https://github.com/sweta3283/Leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/sweta3283/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
