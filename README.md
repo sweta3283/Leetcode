@@ -9,6 +9,7 @@
 | [0011-container-with-most-water](https://github.com/sweta3283/Leetcode/tree/master/0011-container-with-most-water) |
 | [0016-3sum-closest](https://github.com/sweta3283/Leetcode/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/sweta3283/Leetcode/tree/master/0018-4sum) |
+| [0031-next-permutation](https://github.com/sweta3283/Leetcode/tree/master/0031-next-permutation) |
 | [0125-valid-palindrome](https://github.com/sweta3283/Leetcode/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/sweta3283/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/sweta3283/Leetcode/tree/master/0189-rotate-array) |
@@ -45,6 +46,7 @@
 | [0011-container-with-most-water](https://github.com/sweta3283/Leetcode/tree/master/0011-container-with-most-water) |
 | [0016-3sum-closest](https://github.com/sweta3283/Leetcode/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/sweta3283/Leetcode/tree/master/0018-4sum) |
+| [0031-next-permutation](https://github.com/sweta3283/Leetcode/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/sweta3283/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0046-permutations](https://github.com/sweta3283/Leetcode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/sweta3283/Leetcode/tree/master/0047-permutations-ii) |
