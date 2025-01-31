@@ -50,6 +50,7 @@
 | [0033-search-in-rotated-sorted-array](https://github.com/sweta3283/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0046-permutations](https://github.com/sweta3283/Leetcode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/sweta3283/Leetcode/tree/master/0047-permutations-ii) |
+| [0073-set-matrix-zeroes](https://github.com/sweta3283/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0136-single-number](https://github.com/sweta3283/Leetcode/tree/master/0136-single-number) |
 | [0189-rotate-array](https://github.com/sweta3283/Leetcode/tree/master/0189-rotate-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/sweta3283/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
@@ -150,6 +151,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0073-set-matrix-zeroes](https://github.com/sweta3283/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [1036-rotting-oranges](https://github.com/sweta3283/Leetcode/tree/master/1036-rotting-oranges) |
 | [2038-nearest-exit-from-entrance-in-maze](https://github.com/sweta3283/Leetcode/tree/master/2038-nearest-exit-from-entrance-in-maze) |
 | [2428-equal-row-and-column-pairs](https://github.com/sweta3283/Leetcode/tree/master/2428-equal-row-and-column-pairs) |
@@ -179,6 +181,7 @@
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/sweta3283/Leetcode/tree/master/0013-roman-to-integer) |
+| [0073-set-matrix-zeroes](https://github.com/sweta3283/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [1256-rank-transform-of-an-array](https://github.com/sweta3283/Leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1319-unique-number-of-occurrences](https://github.com/sweta3283/Leetcode/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/sweta3283/Leetcode/tree/master/1392-find-the-difference-of-two-arrays) |
