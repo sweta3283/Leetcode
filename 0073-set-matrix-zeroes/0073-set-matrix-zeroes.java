@@ -16,7 +16,7 @@ class Solution {
             for (int j = 0; j < m; j++) {
                 if (row[i] || column[j]) {
                     matrix[i][j] = 0;
-                   // System.out.println(i + " : " + j);
+                    // System.out.println(i + " : " + j);
                 }
             }
         }
